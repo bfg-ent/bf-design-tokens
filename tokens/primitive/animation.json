@@ -1,0 +1,72 @@
+{
+  "bf": {
+    "primitive": {
+      "animation": {
+        "easing": {
+          "bounce": {
+            "$value": "cubic-bezier(0.5, 1.8, 0.9, 0.8)",
+            "$type": "cubicBezier",
+            "$description": "Bouncy overshoot easing"
+          },
+          "in": {
+            "$value": "cubic-bezier(0, 0, 0.2, 1)",
+            "$type": "cubicBezier",
+            "$description": "Ease-in (decelerate)"
+          },
+          "out": {
+            "$value": "cubic-bezier(0.4, 0, 1, 1)",
+            "$type": "cubicBezier",
+            "$description": "Ease-out (accelerate)"
+          },
+          "standard": {
+            "$value": "cubic-bezier(0.4, 0, 0.2, 1)",
+            "$type": "cubicBezier",
+            "$description": "Standard ease-in-out"
+          }
+        },
+        "duration": {
+          "instant": {
+            "$value": "64ms",
+            "$type": "duration",
+            "$description": "Near-instant feedback"
+          },
+          "fast": {
+            "$value": "128ms",
+            "$type": "duration",
+            "$description": "Quick transitions"
+          },
+          "normal": {
+            "$value": "192ms",
+            "$type": "duration",
+            "$description": "Default transition speed"
+          },
+          "slow": {
+            "$value": "256ms",
+            "$type": "duration",
+            "$description": "Deliberate transitions"
+          },
+          "slower": {
+            "$value": "384ms",
+            "$type": "duration",
+            "$description": "Slow transitions (Venia default)"
+          },
+          "slowest": {
+            "$value": "512ms",
+            "$type": "duration",
+            "$description": "Longest transitions"
+          },
+          "enter": {
+            "$value": "224ms",
+            "$type": "duration",
+            "$description": "Element enter/appear"
+          },
+          "exit": {
+            "$value": "192ms",
+            "$type": "duration",
+            "$description": "Element exit/disappear"
+          }
+        }
+      }
+    }
+  }
+}

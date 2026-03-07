@@ -1,0 +1,126 @@
+{
+  "bf": {
+    "primitive": {
+      "font": {
+        "family": {
+          "heading": {
+            "$value": "'MaaxBlack', sans-serif",
+            "$type": "fontFamily",
+            "$description": "Display/heading font - uppercase headings, product titles, prices"
+          },
+          "display": {
+            "$value": "'MaaxUltra', sans-serif",
+            "$type": "fontFamily",
+            "$description": "Extra-bold display font for hero/promotional text"
+          },
+          "body": {
+            "$value": "'Montserrat', sans-serif",
+            "$type": "fontFamily",
+            "$description": "Primary body font"
+          }
+        },
+        "weight": {
+          "normal": {
+            "$value": "normal",
+            "$type": "fontWeight",
+            "$description": "Heading font weight (MaaxBlack is inherently bold)"
+          },
+          "medium": {
+            "$value": "500",
+            "$type": "fontWeight",
+            "$description": "Montserrat medium"
+          },
+          "semibold": {
+            "$value": "600",
+            "$type": "fontWeight",
+            "$description": "Montserrat semibold"
+          },
+          "bold": {
+            "$value": "700",
+            "$type": "fontWeight",
+            "$description": "Montserrat bold"
+          },
+          "extrabold": {
+            "$value": "800",
+            "$type": "fontWeight",
+            "$description": "Montserrat extra-bold"
+          }
+        },
+        "size": {
+          "xs": {
+            "$value": "0.75rem",
+            "$type": "dimension",
+            "$description": "12px - smallest text"
+          },
+          "sm": {
+            "$value": "0.875rem",
+            "$type": "dimension",
+            "$description": "14px - small/secondary text"
+          },
+          "base": {
+            "$value": "1rem",
+            "$type": "dimension",
+            "$description": "16px - body text"
+          },
+          "lg": {
+            "$value": "1.125rem",
+            "$type": "dimension",
+            "$description": "18px - large body text"
+          },
+          "xl": {
+            "$value": "1.3rem",
+            "$type": "dimension",
+            "$description": "~21px - small heading"
+          },
+          "2xl": {
+            "$value": "1.4rem",
+            "$type": "dimension",
+            "$description": "~22px - medium heading"
+          },
+          "3xl": {
+            "$value": "1.5rem",
+            "$type": "dimension",
+            "$description": "24px - large heading (h2)"
+          },
+          "4xl": {
+            "$value": "2em",
+            "$type": "dimension",
+            "$description": "~32px - h1 heading (overridden in tailwind.config.js)"
+          },
+          "5xl": {
+            "$value": "1.75rem",
+            "$type": "dimension",
+            "$description": "28px - extra-large heading"
+          }
+        },
+        "lineHeight": {
+          "none": {
+            "$value": "1",
+            "$type": "number",
+            "$description": "No extra line spacing"
+          },
+          "tight": {
+            "$value": "1.2",
+            "$type": "number",
+            "$description": "Tight - used for lg, xl, 2xl sizes"
+          },
+          "snug": {
+            "$value": "1.3",
+            "$type": "number",
+            "$description": "Snug - used for base, sm, md sizes"
+          },
+          "normal": {
+            "$value": "1.5",
+            "$type": "number",
+            "$description": "Normal - Venia default body"
+          },
+          "relaxed": {
+            "$value": "1.7",
+            "$type": "number",
+            "$description": "Relaxed - used for 3xl, 4xl, 5xl sizes"
+          }
+        }
+      }
+    }
+  }
+}

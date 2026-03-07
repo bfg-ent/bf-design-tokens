@@ -1,0 +1,53 @@
+{
+  "bf": {
+    "primitive": {
+      "breakpoint": {
+        "xs": {
+          "$value": "480px",
+          "$type": "dimension",
+          "$description": "Extra-small screens"
+        },
+        "sm": {
+          "$value": "640px",
+          "$type": "dimension",
+          "$description": "Small screens"
+        },
+        "md": {
+          "$value": "800px",
+          "$type": "dimension",
+          "$description": "Medium screens"
+        },
+        "lg": {
+          "$value": "960px",
+          "$type": "dimension",
+          "$description": "Large screens"
+        },
+        "xl": {
+          "$value": "1024px",
+          "$type": "dimension",
+          "$description": "Extra-large screens"
+        },
+        "2xl": {
+          "$value": "1280px",
+          "$type": "dimension",
+          "$description": "Wide screens"
+        },
+        "3xl": {
+          "$value": "1440px",
+          "$type": "dimension",
+          "$description": "Extra-wide screens"
+        },
+        "4xl": {
+          "$value": "1600px",
+          "$type": "dimension",
+          "$description": "Ultra-wide screens"
+        },
+        "max": {
+          "$value": "1920px",
+          "$type": "dimension",
+          "$description": "Maximum supported width"
+        }
+      }
+    }
+  }
+}

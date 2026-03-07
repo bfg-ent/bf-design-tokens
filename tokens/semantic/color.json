@@ -1,0 +1,217 @@
+{
+  "bf": {
+    "color": {
+      "brand": {
+        "primary": {
+          "$value": "{bf.primitive.color.blue-500}",
+          "$type": "color",
+          "$description": "Primary brand color - headings, key UI"
+        },
+        "primary-dark": {
+          "$value": "{bf.primitive.color.blue-700}",
+          "$type": "color",
+          "$description": "Darker brand - hover states, emphasis"
+        },
+        "accent": {
+          "$value": "{bf.primitive.color.blue-400}",
+          "$type": "color",
+          "$description": "Accent blue - links, secondary actions"
+        },
+        "muted": {
+          "$value": "{bf.primitive.color.blue-300}",
+          "$type": "color",
+          "$description": "Muted brand - decorative/secondary"
+        },
+        "subtle": {
+          "$value": "{bf.primitive.color.blue-100}",
+          "$type": "color",
+          "$description": "Subtle brand - light backgrounds"
+        }
+      },
+
+      "success": {
+        "default": {
+          "$value": "{bf.primitive.color.green-500}",
+          "$type": "color",
+          "$description": "Success / positive action"
+        },
+        "light": {
+          "$value": "{bf.primitive.color.green-400}",
+          "$type": "color",
+          "$description": "Light success accent"
+        },
+        "bg": {
+          "$value": "{bf.primitive.color.green-100}",
+          "$type": "color",
+          "$description": "Success background"
+        },
+        "hover": {
+          "$value": "{bf.primitive.color.green-600}",
+          "$type": "color",
+          "$description": "Success hover state"
+        },
+        "dark": {
+          "$value": "{bf.primitive.color.green-800}",
+          "$type": "color",
+          "$description": "Dark success"
+        }
+      },
+
+      "warning": {
+        "default": {
+          "$value": "{bf.primitive.color.orange-500}",
+          "$type": "color",
+          "$description": "Warning / attention"
+        },
+        "light": {
+          "$value": "{bf.primitive.color.orange-300}",
+          "$type": "color",
+          "$description": "Light warning accent"
+        },
+        "dark": {
+          "$value": "{bf.primitive.color.orange-600}",
+          "$type": "color",
+          "$description": "Dark warning"
+        },
+        "bg": {
+          "$value": "{bf.primitive.color.yellow-100}",
+          "$type": "color",
+          "$description": "Warning notice background"
+        },
+        "border": {
+          "$value": "{bf.primitive.color.yellow-600}",
+          "$type": "color",
+          "$description": "Warning notice border"
+        },
+        "text": {
+          "$value": "{bf.primitive.color.yellow-800}",
+          "$type": "color",
+          "$description": "Warning notice text"
+        }
+      },
+
+      "error": {
+        "default": {
+          "$value": "{bf.primitive.color.red-500}",
+          "$type": "color",
+          "$description": "Error text"
+        },
+        "bg": {
+          "$value": "{bf.primitive.color.red-50}",
+          "$type": "color",
+          "$description": "Error notice background"
+        },
+        "border": {
+          "$value": "{bf.primitive.color.red-300}",
+          "$type": "color",
+          "$description": "Error notice border"
+        }
+      },
+
+      "surface": {
+        "primary": {
+          "$value": "{bf.primitive.color.white}",
+          "$type": "color",
+          "$description": "Primary surface (page background, cards)"
+        },
+        "secondary": {
+          "$value": "{bf.primitive.color.gray-50}",
+          "$type": "color",
+          "$description": "Secondary surface (subtle backgrounds)"
+        },
+        "tertiary": {
+          "$value": "{bf.primitive.color.gray-100}",
+          "$type": "color",
+          "$description": "Tertiary surface (section backgrounds)"
+        }
+      },
+
+      "border": {
+        "default": {
+          "$value": "{bf.primitive.color.gray-300}",
+          "$type": "color",
+          "$description": "Default border color"
+        },
+        "light": {
+          "$value": "{bf.primitive.color.gray-400}",
+          "$type": "color",
+          "$description": "Light border (cards)"
+        },
+        "strong": {
+          "$value": "{bf.primitive.color.gray-900}",
+          "$type": "color",
+          "$description": "Strong/dark border"
+        }
+      },
+
+      "text": {
+        "primary": {
+          "$value": "{bf.primitive.color.gray-900}",
+          "$type": "color",
+          "$description": "Primary body text"
+        },
+        "secondary": {
+          "$value": "{bf.primitive.color.gray-700}",
+          "$type": "color",
+          "$description": "Secondary text"
+        },
+        "muted": {
+          "$value": "{bf.primitive.color.gray-550}",
+          "$type": "color",
+          "$description": "Muted / hint text"
+        },
+        "placeholder": {
+          "$value": "{bf.primitive.color.gray-600}",
+          "$type": "color",
+          "$description": "Input placeholder text"
+        },
+        "label": {
+          "$value": "{bf.primitive.color.gray-650}",
+          "$type": "color",
+          "$description": "Form labels and descriptors"
+        },
+        "disabled": {
+          "$value": "{bf.primitive.color.gray-500}",
+          "$type": "color",
+          "$description": "Disabled text"
+        },
+        "on-dark": {
+          "$value": "{bf.primitive.color.white}",
+          "$type": "color",
+          "$description": "Text on dark backgrounds"
+        },
+        "heading": {
+          "$value": "{bf.primitive.color.blue-500}",
+          "$type": "color",
+          "$description": "Heading text color"
+        }
+      },
+
+      "link": {
+        "default": {
+          "$value": "{bf.primitive.color.blue-400}",
+          "$type": "color",
+          "$description": "Link color"
+        },
+        "hover": {
+          "$value": "{bf.primitive.color.green-600}",
+          "$type": "color",
+          "$description": "Link hover color"
+        }
+      },
+
+      "rating": {
+        "filled": {
+          "$value": "{bf.primitive.color.star-gold}",
+          "$type": "color",
+          "$description": "Filled star rating"
+        },
+        "empty": {
+          "$value": "{bf.primitive.color.star-empty}",
+          "$type": "color",
+          "$description": "Empty star rating"
+        }
+      }
+    }
+  }
+}

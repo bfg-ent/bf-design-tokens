@@ -1,0 +1,49 @@
+{
+  "bf": {
+    "layout": {
+      "maxWidth": {
+        "$value": "1200px",
+        "$type": "dimension",
+        "$description": "Maximum site content width"
+      },
+      "header": {
+        "minHeight": {
+          "default": {
+            "$value": "5rem",
+            "$type": "dimension",
+            "$description": "Header height on large screens"
+          },
+          "compact": {
+            "$value": "3.5rem",
+            "$type": "dimension",
+            "$description": "Header height on small screens (below lg breakpoint)"
+          }
+        }
+      },
+      "thumbnail": {
+        "width": {
+          "$value": "80px",
+          "$type": "dimension",
+          "$description": "Product thumbnail width"
+        },
+        "height": {
+          "$value": "80px",
+          "$type": "dimension",
+          "$description": "Product thumbnail height"
+        }
+      },
+      "featureImage": {
+        "width": {
+          "$value": "175px",
+          "$type": "dimension",
+          "$description": "Feature image width"
+        },
+        "height": {
+          "$value": "150px",
+          "$type": "dimension",
+          "$description": "Feature image height"
+        }
+      }
+    }
+  }
+}

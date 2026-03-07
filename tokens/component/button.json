@@ -1,0 +1,74 @@
+{
+  "bf": {
+    "button": {
+      "primary": {
+        "bg": {
+          "$value": "#D6FF66",
+          "$type": "color",
+          "$description": "Primary CTA button background (rgb 214, 255, 102)"
+        },
+        "text": {
+          "$value": "#003E72",
+          "$type": "color",
+          "$description": "Primary CTA button text (rgb 0, 62, 114)"
+        },
+        "border": {
+          "$value": "#75DD00",
+          "$type": "color",
+          "$description": "Primary CTA button border (rgb 117, 221, 0)"
+        },
+        "hover-bg": {
+          "$value": "#B4EE57",
+          "$type": "color",
+          "$description": "Primary CTA hover (rgb 180, 238, 87)"
+        }
+      },
+      "secondary": {
+        "bg": {
+          "$value": "#D6F1FF",
+          "$type": "color",
+          "$description": "Secondary button background (rgb 214, 241, 255)"
+        },
+        "text": {
+          "$value": "#2181AF",
+          "$type": "color",
+          "$description": "Secondary button text (rgb 33, 129, 175)"
+        },
+        "hover-bg": {
+          "$value": "#ACDDF3",
+          "$type": "color",
+          "$description": "Secondary button hover (rgb 172, 221, 243)"
+        }
+      },
+      "danger": {
+        "bg": {
+          "$value": "{bf.primitive.color.red-400}",
+          "$type": "color",
+          "$description": "Danger button background"
+        },
+        "border": {
+          "$value": "{bf.primitive.color.red-700}",
+          "$type": "color",
+          "$description": "Danger button border"
+        }
+      },
+      "highlight": {
+        "bg": {
+          "$value": "#FF7700",
+          "$type": "color",
+          "$description": "Highlight/promo button background (rgb 255, 119, 0)"
+        },
+        "border": {
+          "$value": "#FEE1C8",
+          "$type": "color",
+          "$description": "Highlight button border (rgb 254, 225, 200)"
+        },
+        "hover-bg": {
+          "$value": "#E66A00",
+          "$type": "color",
+          "$description": "Highlight button hover (rgb 230, 106, 0)"
+        }
+      }
+    }
+  }
+}

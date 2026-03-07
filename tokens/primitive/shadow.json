@@ -1,0 +1,33 @@
+{
+  "bf": {
+    "primitive": {
+      "shadow": {
+        "card": {
+          "$value": "3px 3px 8px 1px rgba(0, 0, 0, 0.25)",
+          "$type": "shadow",
+          "$description": "CMS card / content box shadow"
+        },
+        "box-heavy": {
+          "$value": "0 0 20px rgba(0, 0, 0, 0.76)",
+          "$type": "shadow",
+          "$description": "Heavy box shadow for CMS dark boxes, top brands"
+        },
+        "dropdown": {
+          "$value": "0 1px 6px rgba(0, 0, 0, 0.2)",
+          "$type": "shadow",
+          "$description": "Dropdown / mini-cart shadow"
+        },
+        "menu": {
+          "$value": "0 1px 3px rgba(0, 0, 0, 0.2)",
+          "$type": "shadow",
+          "$description": "Menu shadow (from Venia preset)"
+        },
+        "none": {
+          "$value": "none",
+          "$type": "shadow",
+          "$description": "No shadow"
+        }
+      }
+    }
+  }
+}

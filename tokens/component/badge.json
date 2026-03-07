@@ -1,0 +1,32 @@
+{
+  "bf": {
+    "badge": {
+      "new": {
+        "bg": {
+          "$value": "{bf.primitive.color.badge-new}",
+          "$type": "color",
+          "$description": "New product badge"
+        }
+      },
+      "exclusive": {
+        "bg": {
+          "$value": "{bf.primitive.color.badge-exclusive}",
+          "$type": "color",
+          "$description": "Exclusive product badge"
+        }
+      },
+      "featured": {
+        "bg": {
+          "$value": "{bf.primitive.color.badge-featured}",
+          "$type": "color",
+          "$description": "Featured product badge"
+        }
+      },
+      "text": {
+        "$value": "{bf.primitive.color.white}",
+        "$type": "color",
+        "$description": "Badge text color (always white)"
+      }
+    }
+  }
+}

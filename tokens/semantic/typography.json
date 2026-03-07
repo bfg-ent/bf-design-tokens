@@ -1,0 +1,33 @@
+{
+  "bf": {
+    "typography": {
+      "heading": {
+        "fontFamily": {
+          "$value": "{bf.primitive.font.family.heading}",
+          "$type": "fontFamily"
+        },
+        "textTransform": {
+          "$value": "uppercase",
+          "$type": "textTransform",
+          "$description": "All headings are uppercase"
+        }
+      },
+      "display": {
+        "fontFamily": {
+          "$value": "{bf.primitive.font.family.display}",
+          "$type": "fontFamily"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "$value": "{bf.primitive.font.family.body}",
+          "$type": "fontFamily"
+        },
+        "lineHeight": {
+          "$value": "{bf.primitive.font.lineHeight.snug}",
+          "$type": "number"
+        }
+      }
+    }
+  }
+}

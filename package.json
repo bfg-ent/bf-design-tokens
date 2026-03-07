@@ -1,0 +1,20 @@
+{
+  "name": "@bfg/design-tokens",
+  "version": "0.1.0",
+  "description": "Big Fish Games shared design tokens",
+  "main": "output/js/tokens.js",
+  "types": "output/ts/tokens.d.ts",
+  "files": [
+    "output/",
+    "tokens/"
+  ],
+  "scripts": {
+    "build": "style-dictionary build -c style-dictionary.config.js",
+    "clean": "rm -rf output/"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.3.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

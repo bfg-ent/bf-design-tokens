@@ -1,0 +1,232 @@
+{
+  "bf": {
+    "primitive": {
+      "color": {
+        "white": {
+          "$value": "#FFFFFF",
+          "$type": "color",
+          "$description": "Pure white"
+        },
+        "black": {
+          "$value": "#000000",
+          "$type": "color",
+          "$description": "Pure black"
+        },
+
+        "blue-100": {
+          "$value": "#DBF0FD",
+          "$type": "color",
+          "$description": "Extra-light blue (rgb 219, 240, 253)"
+        },
+        "blue-300": {
+          "$value": "#80A9C7",
+          "$type": "color",
+          "$description": "Blue gray (rgb 128, 169, 199)"
+        },
+        "blue-400": {
+          "$value": "#0097D0",
+          "$type": "color",
+          "$description": "Light blue / accent (rgb 0, 151, 208)"
+        },
+        "blue-500": {
+          "$value": "#00548E",
+          "$type": "color",
+          "$description": "Primary brand blue (rgb 0, 84, 142)"
+        },
+        "blue-700": {
+          "$value": "#003D6E",
+          "$type": "color",
+          "$description": "Dark blue (rgb 0, 61, 110)"
+        },
+
+        "green-100": {
+          "$value": "#E7F7D2",
+          "$type": "color",
+          "$description": "Extra-light green (rgb 231, 247, 210)"
+        },
+        "green-400": {
+          "$value": "#8EDA00",
+          "$type": "color",
+          "$description": "Light green (rgb 142, 218, 0)"
+        },
+        "green-500": {
+          "$value": "#63BE00",
+          "$type": "color",
+          "$description": "Primary green (rgb 99, 190, 0)"
+        },
+        "green-600": {
+          "$value": "#5FB31A",
+          "$type": "color",
+          "$description": "Green hover (rgb 95, 179, 26)"
+        },
+        "green-800": {
+          "$value": "#006300",
+          "$type": "color",
+          "$description": "Dark green (rgb 0, 99, 0)"
+        },
+
+        "orange-300": {
+          "$value": "#FFC405",
+          "$type": "color",
+          "$description": "Light orange / gold (rgb 255, 196, 5)"
+        },
+        "orange-500": {
+          "$value": "#FF8100",
+          "$type": "color",
+          "$description": "Primary orange (rgb 255, 129, 0)"
+        },
+        "orange-600": {
+          "$value": "#FF7300",
+          "$type": "color",
+          "$description": "Dark orange (rgb 255, 115, 0)"
+        },
+
+        "gray-50": {
+          "$value": "#FAFAFA",
+          "$type": "color",
+          "$description": "Lightest gray (rgb 250, 250, 250)"
+        },
+        "gray-100": {
+          "$value": "#F2F2F2",
+          "$type": "color",
+          "$description": "Light gray (rgb 242, 242, 242)"
+        },
+        "gray-300": {
+          "$value": "#DEDEDE",
+          "$type": "color",
+          "$description": "Medium-light gray (rgb 222, 222, 222)"
+        },
+        "gray-400": {
+          "$value": "#D3D3D3",
+          "$type": "color",
+          "$description": "Gallery card border gray"
+        },
+        "gray-500": {
+          "$value": "#ACACAC",
+          "$type": "color",
+          "$description": "Disabled gray (rgb 172, 172, 172)"
+        },
+        "gray-550": {
+          "$value": "#999999",
+          "$type": "color",
+          "$description": "Muted text gray"
+        },
+        "gray-600": {
+          "$value": "#8F8F8F",
+          "$type": "color",
+          "$description": "Input placeholder gray"
+        },
+        "gray-650": {
+          "$value": "#757575",
+          "$type": "color",
+          "$description": "Descriptor/label gray"
+        },
+        "gray-700": {
+          "$value": "#666666",
+          "$type": "color",
+          "$description": "Secondary text gray"
+        },
+        "gray-900": {
+          "$value": "#282828",
+          "$type": "color",
+          "$description": "Near-black (filter borders, etc.)"
+        },
+
+        "red-300": {
+          "$value": "#FFCCCC",
+          "$type": "color",
+          "$description": "Light red border (error)"
+        },
+        "red-400": {
+          "$value": "#FF6060",
+          "$type": "color",
+          "$description": "Error / danger button background"
+        },
+        "red-500": {
+          "$value": "#CC0000",
+          "$type": "color",
+          "$description": "Error text"
+        },
+        "red-700": {
+          "$value": "#FF0000",
+          "$type": "color",
+          "$description": "Danger button border"
+        },
+        "red-50": {
+          "$value": "#FFEEEE",
+          "$type": "color",
+          "$description": "Error background"
+        },
+
+        "navy-900": {
+          "$value": "#051826",
+          "$type": "color",
+          "$description": "CMS midnight blue (rgb 5, 24, 38)"
+        },
+        "olive-900": {
+          "$value": "#1C2728",
+          "$type": "color",
+          "$description": "CMS dark olive (rgb 28, 39, 40)"
+        },
+
+        "yellow-500": {
+          "$value": "#E9E71C",
+          "$type": "color",
+          "$description": "CMS yellow text (rgb 233, 231, 28)"
+        },
+        "yellow-400": {
+          "$value": "#F8BE53",
+          "$type": "color",
+          "$description": "CMS halloween/seasonal (rgb 248, 190, 83)"
+        },
+        "yellow-300": {
+          "$value": "#EDDB8F",
+          "$type": "color",
+          "$description": "CMS light yellow text (rgb 237, 219, 143)"
+        },
+        "yellow-600": {
+          "$value": "#FFC107",
+          "$type": "color",
+          "$description": "Warning border"
+        },
+        "yellow-100": {
+          "$value": "#FFF3CD",
+          "$type": "color",
+          "$description": "Warning background"
+        },
+        "yellow-800": {
+          "$value": "#856404",
+          "$type": "color",
+          "$description": "Warning text"
+        },
+
+        "star-gold": {
+          "$value": "#F5A623",
+          "$type": "color",
+          "$description": "Star rating filled color"
+        },
+        "star-empty": {
+          "$value": "#D1D5DB",
+          "$type": "color",
+          "$description": "Star rating empty color"
+        },
+
+        "badge-new": {
+          "$value": "#5DD32E",
+          "$type": "color",
+          "$description": "New badge green"
+        },
+        "badge-exclusive": {
+          "$value": "#9823FF",
+          "$type": "color",
+          "$description": "Exclusive badge purple"
+        },
+        "badge-featured": {
+          "$value": "#4292ED",
+          "$type": "color",
+          "$description": "Featured badge blue"
+        }
+      }
+    }
+  }
+}

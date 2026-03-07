@@ -1,0 +1,61 @@
+{
+  "bf": {
+    "cms": {
+      "box": {
+        "midnightblue": {
+          "bg": {
+            "$value": "{bf.primitive.color.navy-900}",
+            "$type": "color",
+            "$description": "Midnight blue CMS content box"
+          }
+        },
+        "darkolive": {
+          "bg": {
+            "$value": "{bf.primitive.color.olive-900}",
+            "$type": "color",
+            "$description": "Dark olive CMS content box"
+          }
+        },
+        "shadow": {
+          "$value": "{bf.primitive.shadow.box-heavy}",
+          "$type": "shadow",
+          "$description": "CMS dark content box shadow"
+        },
+        "radius": {
+          "$value": "{bf.primitive.radius.xl}",
+          "$type": "dimension",
+          "$description": "CMS rounded content box radius"
+        }
+      },
+      "card": {
+        "shadow": {
+          "$value": "{bf.primitive.shadow.card}",
+          "$type": "shadow",
+          "$description": "CMS card shadow"
+        },
+        "radius": {
+          "$value": "5px",
+          "$type": "dimension",
+          "$description": "CMS card border radius"
+        }
+      },
+      "text": {
+        "yellow": {
+          "$value": "{bf.primitive.color.yellow-500}",
+          "$type": "color",
+          "$description": "CMS promotional yellow text"
+        },
+        "light-yellow": {
+          "$value": "{bf.primitive.color.yellow-300}",
+          "$type": "color",
+          "$description": "CMS light yellow text"
+        },
+        "halloween": {
+          "$value": "{bf.primitive.color.yellow-400}",
+          "$type": "color",
+          "$description": "CMS seasonal/halloween text"
+        }
+      }
+    }
+  }
+}
