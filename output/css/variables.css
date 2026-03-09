@@ -1,0 +1,191 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --bf-button-primary-bg: #d6ff66; /** Primary CTA button background (rgb 214, 255, 102) */
+  --bf-button-primary-text: #003e72; /** Primary CTA button text (rgb 0, 62, 114) */
+  --bf-button-primary-border: #75dd00; /** Primary CTA button border (rgb 117, 221, 0) */
+  --bf-button-primary-hover-bg: #b4ee57; /** Primary CTA hover (rgb 180, 238, 87) */
+  --bf-button-secondary-bg: #d6f1ff; /** Secondary button background (rgb 214, 241, 255) */
+  --bf-button-secondary-text: #2181af; /** Secondary button text (rgb 33, 129, 175) */
+  --bf-button-secondary-hover-bg: #acddf3; /** Secondary button hover (rgb 172, 221, 243) */
+  --bf-button-highlight-bg: #ff7700; /** Highlight/promo button background (rgb 255, 119, 0) */
+  --bf-button-highlight-border: #fee1c8; /** Highlight button border (rgb 254, 225, 200) */
+  --bf-button-highlight-hover-bg: #e66a00; /** Highlight button hover (rgb 230, 106, 0) */
+  --bf-cms-card-radius: 5px; /** CMS card border radius */
+  --bf-layout-max-width: 1200px; /** Maximum site content width */
+  --bf-layout-header-min-height-default: 5rem; /** Header height on large screens */
+  --bf-layout-header-min-height-compact: 3.5rem; /** Header height on small screens (below lg breakpoint) */
+  --bf-layout-thumbnail-width: 80px; /** Product thumbnail width */
+  --bf-layout-thumbnail-height: 80px; /** Product thumbnail height */
+  --bf-layout-feature-image-width: 175px; /** Feature image width */
+  --bf-layout-feature-image-height: 150px; /** Feature image height */
+  --bf-primitive-animation-easing-bounce: cubic-bezier(0.5, 1.8, 0.9, 0.8); /** Bouncy overshoot easing */
+  --bf-primitive-animation-easing-in: cubic-bezier(0, 0, 0.2, 1); /** Ease-in (decelerate) */
+  --bf-primitive-animation-easing-out: cubic-bezier(0.4, 0, 1, 1); /** Ease-out (accelerate) */
+  --bf-primitive-animation-easing-standard: cubic-bezier(0.4, 0, 0.2, 1); /** Standard ease-in-out */
+  --bf-primitive-animation-duration-instant: 64ms; /** Near-instant feedback */
+  --bf-primitive-animation-duration-fast: 128ms; /** Quick transitions */
+  --bf-primitive-animation-duration-normal: 192ms; /** Default transition speed */
+  --bf-primitive-animation-duration-slow: 256ms; /** Deliberate transitions */
+  --bf-primitive-animation-duration-slower: 384ms; /** Slow transitions (Venia default) */
+  --bf-primitive-animation-duration-slowest: 512ms; /** Longest transitions */
+  --bf-primitive-animation-duration-enter: 224ms; /** Element enter/appear */
+  --bf-primitive-animation-duration-exit: 192ms; /** Element exit/disappear */
+  --bf-primitive-breakpoint-xs: 480px; /** Extra-small screens */
+  --bf-primitive-breakpoint-sm: 640px; /** Small screens */
+  --bf-primitive-breakpoint-md: 800px; /** Medium screens */
+  --bf-primitive-breakpoint-lg: 960px; /** Large screens */
+  --bf-primitive-breakpoint-xl: 1024px; /** Extra-large screens */
+  --bf-primitive-breakpoint-2xl: 1280px; /** Wide screens */
+  --bf-primitive-breakpoint-3xl: 1440px; /** Extra-wide screens */
+  --bf-primitive-breakpoint-4xl: 1600px; /** Ultra-wide screens */
+  --bf-primitive-breakpoint-max: 1920px; /** Maximum supported width */
+  --bf-primitive-color-white: #ffffff; /** Pure white */
+  --bf-primitive-color-black: #000000; /** Pure black */
+  --bf-primitive-color-blue-100: #dbf0fd; /** Extra-light blue (rgb 219, 240, 253) */
+  --bf-primitive-color-blue-300: #80a9c7; /** Blue gray (rgb 128, 169, 199) */
+  --bf-primitive-color-blue-400: #0097d0; /** Light blue / accent (rgb 0, 151, 208) */
+  --bf-primitive-color-blue-500: #00548e; /** Primary brand blue (rgb 0, 84, 142) */
+  --bf-primitive-color-blue-700: #003d6e; /** Dark blue (rgb 0, 61, 110) */
+  --bf-primitive-color-green-100: #e7f7d2; /** Extra-light green (rgb 231, 247, 210) */
+  --bf-primitive-color-green-400: #8eda00; /** Light green (rgb 142, 218, 0) */
+  --bf-primitive-color-green-500: #63be00; /** Primary green (rgb 99, 190, 0) */
+  --bf-primitive-color-green-600: #5fb31a; /** Green hover (rgb 95, 179, 26) */
+  --bf-primitive-color-green-800: #006300; /** Dark green (rgb 0, 99, 0) */
+  --bf-primitive-color-orange-300: #ffc405; /** Light orange / gold (rgb 255, 196, 5) */
+  --bf-primitive-color-orange-500: #ff8100; /** Primary orange (rgb 255, 129, 0) */
+  --bf-primitive-color-orange-600: #ff7300; /** Dark orange (rgb 255, 115, 0) */
+  --bf-primitive-color-gray-50: #fafafa; /** Lightest gray (rgb 250, 250, 250) */
+  --bf-primitive-color-gray-100: #f2f2f2; /** Light gray (rgb 242, 242, 242) */
+  --bf-primitive-color-gray-300: #dedede; /** Medium-light gray (rgb 222, 222, 222) */
+  --bf-primitive-color-gray-400: #d3d3d3; /** Gallery card border gray */
+  --bf-primitive-color-gray-500: #acacac; /** Disabled gray (rgb 172, 172, 172) */
+  --bf-primitive-color-gray-550: #999999; /** Muted text gray */
+  --bf-primitive-color-gray-600: #8f8f8f; /** Input placeholder gray */
+  --bf-primitive-color-gray-650: #757575; /** Descriptor/label gray */
+  --bf-primitive-color-gray-700: #666666; /** Secondary text gray */
+  --bf-primitive-color-gray-900: #282828; /** Near-black (filter borders, etc.) */
+  --bf-primitive-color-red-300: #ffcccc; /** Light red border (error) */
+  --bf-primitive-color-red-400: #ff6060; /** Error / danger button background */
+  --bf-primitive-color-red-500: #cc0000; /** Error text */
+  --bf-primitive-color-red-700: #ff0000; /** Danger button border */
+  --bf-primitive-color-red-50: #ffeeee; /** Error background */
+  --bf-primitive-color-navy-900: #051826; /** CMS midnight blue (rgb 5, 24, 38) */
+  --bf-primitive-color-olive-900: #1c2728; /** CMS dark olive (rgb 28, 39, 40) */
+  --bf-primitive-color-yellow-500: #e9e71c; /** CMS yellow text (rgb 233, 231, 28) */
+  --bf-primitive-color-yellow-400: #f8be53; /** CMS halloween/seasonal (rgb 248, 190, 83) */
+  --bf-primitive-color-yellow-300: #eddb8f; /** CMS light yellow text (rgb 237, 219, 143) */
+  --bf-primitive-color-yellow-600: #ffc107; /** Warning border */
+  --bf-primitive-color-yellow-100: #fff3cd; /** Warning background */
+  --bf-primitive-color-yellow-800: #856404; /** Warning text */
+  --bf-primitive-color-star-gold: #f5a623; /** Star rating filled color */
+  --bf-primitive-color-star-empty: #d1d5db; /** Star rating empty color */
+  --bf-primitive-color-badge-new: #5dd32e; /** New badge green */
+  --bf-primitive-color-badge-exclusive: #9823ff; /** Exclusive badge purple */
+  --bf-primitive-color-badge-featured: #4292ed; /** Featured badge blue */
+  --bf-primitive-shadow-card: 3px 3px 8px 1px rgba(0, 0, 0, 0.25); /** CMS card / content box shadow */
+  --bf-primitive-shadow-box-heavy: 0 0 20px rgba(0, 0, 0, 0.76); /** Heavy box shadow for CMS dark boxes, top brands */
+  --bf-primitive-shadow-dropdown: 0 1px 6px rgba(0, 0, 0, 0.2); /** Dropdown / mini-cart shadow */
+  --bf-primitive-shadow-menu: 0 1px 3px rgba(0, 0, 0, 0.2); /** Menu shadow (from Venia preset) */
+  --bf-primitive-shadow-none: none; /** No shadow */
+  --bf-primitive-spacing-0: 0;
+  --bf-primitive-spacing-1: 0.25rem; /** 4px */
+  --bf-primitive-spacing-2: 0.5rem; /** 8px */
+  --bf-primitive-spacing-3: 0.75rem; /** 12px */
+  --bf-primitive-spacing-4: 1rem; /** 16px */
+  --bf-primitive-spacing-5: 1.25rem; /** 20px */
+  --bf-primitive-spacing-6: 1.5rem; /** 24px */
+  --bf-primitive-spacing-8: 2rem; /** 32px */
+  --bf-primitive-spacing-10: 2.5rem; /** 40px */
+  --bf-primitive-spacing-12: 3rem; /** 48px */
+  --bf-primitive-spacing-16: 4rem; /** 64px */
+  --bf-primitive-spacing-20: 5rem; /** 80px */
+  --bf-primitive-spacing-24: 6rem; /** 96px */
+  --bf-primitive-radius-none: 0;
+  --bf-primitive-radius-sm: 4px; /** Small radius - buttons, inputs, badges */
+  --bf-primitive-radius-md: 6px; /** Medium radius */
+  --bf-primitive-radius-lg: 8px; /** Large radius - cards, modals */
+  --bf-primitive-radius-xl: 15px; /** Extra-large radius - CMS content boxes */
+  --bf-primitive-radius-pill: 20px; /** Pill shape - filter tags */
+  --bf-primitive-radius-round: 9999px; /** Fully round */
+  --bf-primitive-font-family-heading: 'MaaxBlack', sans-serif; /** Display/heading font - uppercase headings, product titles, prices */
+  --bf-primitive-font-family-display: 'MaaxUltra', sans-serif; /** Extra-bold display font for hero/promotional text */
+  --bf-primitive-font-family-body: 'Montserrat', sans-serif; /** Primary body font */
+  --bf-primitive-font-weight-normal: normal; /** Heading font weight (MaaxBlack is inherently bold) */
+  --bf-primitive-font-weight-medium: 500; /** Montserrat medium */
+  --bf-primitive-font-weight-semibold: 600; /** Montserrat semibold */
+  --bf-primitive-font-weight-bold: 700; /** Montserrat bold */
+  --bf-primitive-font-weight-extrabold: 800; /** Montserrat extra-bold */
+  --bf-primitive-font-size-xs: 0.75rem; /** 12px - smallest text */
+  --bf-primitive-font-size-sm: 0.875rem; /** 14px - small/secondary text */
+  --bf-primitive-font-size-base: 1rem; /** 16px - body text */
+  --bf-primitive-font-size-lg: 1.125rem; /** 18px - large body text */
+  --bf-primitive-font-size-xl: 1.3rem; /** ~21px - small heading */
+  --bf-primitive-font-size-2xl: 1.4rem; /** ~22px - medium heading */
+  --bf-primitive-font-size-3xl: 1.5rem; /** 24px - large heading (h2) */
+  --bf-primitive-font-size-4xl: 2em; /** ~32px - h1 heading (overridden in tailwind.config.js) */
+  --bf-primitive-font-size-5xl: 1.75rem; /** 28px - extra-large heading */
+  --bf-primitive-font-line-height-none: 1; /** No extra line spacing */
+  --bf-primitive-font-line-height-tight: 1.2; /** Tight - used for lg, xl, 2xl sizes */
+  --bf-primitive-font-line-height-snug: 1.3; /** Snug - used for base, sm, md sizes */
+  --bf-primitive-font-line-height-normal: 1.5; /** Normal - Venia default body */
+  --bf-primitive-font-line-height-relaxed: 1.7; /** Relaxed - used for 3xl, 4xl, 5xl sizes */
+  --bf-typography-heading-text-transform: uppercase; /** All headings are uppercase */
+  --bf-badge-new-bg: var(--bf-primitive-color-badge-new); /** New product badge */
+  --bf-badge-exclusive-bg: var(--bf-primitive-color-badge-exclusive); /** Exclusive product badge */
+  --bf-badge-featured-bg: var(--bf-primitive-color-badge-featured); /** Featured product badge */
+  --bf-badge-text: var(--bf-primitive-color-white); /** Badge text color (always white) */
+  --bf-button-danger-bg: var(--bf-primitive-color-red-400); /** Danger button background */
+  --bf-button-danger-border: var(--bf-primitive-color-red-700); /** Danger button border */
+  --bf-cms-box-midnightblue-bg: var(--bf-primitive-color-navy-900); /** Midnight blue CMS content box */
+  --bf-cms-box-darkolive-bg: var(--bf-primitive-color-olive-900); /** Dark olive CMS content box */
+  --bf-cms-box-shadow: var(--bf-primitive-shadow-box-heavy); /** CMS dark content box shadow */
+  --bf-cms-box-radius: var(--bf-primitive-radius-xl); /** CMS rounded content box radius */
+  --bf-cms-card-shadow: var(--bf-primitive-shadow-card); /** CMS card shadow */
+  --bf-cms-text-yellow: var(--bf-primitive-color-yellow-500); /** CMS promotional yellow text */
+  --bf-cms-text-light-yellow: var(--bf-primitive-color-yellow-300); /** CMS light yellow text */
+  --bf-cms-text-halloween: var(--bf-primitive-color-yellow-400); /** CMS seasonal/halloween text */
+  --bf-color-brand-primary: var(--bf-primitive-color-blue-500); /** Primary brand color - headings, key UI */
+  --bf-color-brand-primary-dark: var(--bf-primitive-color-blue-700); /** Darker brand - hover states, emphasis */
+  --bf-color-brand-accent: var(--bf-primitive-color-blue-400); /** Accent blue - links, secondary actions */
+  --bf-color-brand-muted: var(--bf-primitive-color-blue-300); /** Muted brand - decorative/secondary */
+  --bf-color-brand-subtle: var(--bf-primitive-color-blue-100); /** Subtle brand - light backgrounds */
+  --bf-color-success-default: var(--bf-primitive-color-green-500); /** Success / positive action */
+  --bf-color-success-light: var(--bf-primitive-color-green-400); /** Light success accent */
+  --bf-color-success-bg: var(--bf-primitive-color-green-100); /** Success background */
+  --bf-color-success-hover: var(--bf-primitive-color-green-600); /** Success hover state */
+  --bf-color-success-dark: var(--bf-primitive-color-green-800); /** Dark success */
+  --bf-color-warning-default: var(--bf-primitive-color-orange-500); /** Warning / attention */
+  --bf-color-warning-light: var(--bf-primitive-color-orange-300); /** Light warning accent */
+  --bf-color-warning-dark: var(--bf-primitive-color-orange-600); /** Dark warning */
+  --bf-color-warning-bg: var(--bf-primitive-color-yellow-100); /** Warning notice background */
+  --bf-color-warning-border: var(--bf-primitive-color-yellow-600); /** Warning notice border */
+  --bf-color-warning-text: var(--bf-primitive-color-yellow-800); /** Warning notice text */
+  --bf-color-error-default: var(--bf-primitive-color-red-500); /** Error text */
+  --bf-color-error-bg: var(--bf-primitive-color-red-50); /** Error notice background */
+  --bf-color-error-border: var(--bf-primitive-color-red-300); /** Error notice border */
+  --bf-color-surface-primary: var(--bf-primitive-color-white); /** Primary surface (page background, cards) */
+  --bf-color-surface-secondary: var(--bf-primitive-color-gray-50); /** Secondary surface (subtle backgrounds) */
+  --bf-color-surface-tertiary: var(--bf-primitive-color-gray-100); /** Tertiary surface (section backgrounds) */
+  --bf-color-border-default: var(--bf-primitive-color-gray-300); /** Default border color */
+  --bf-color-border-light: var(--bf-primitive-color-gray-400); /** Light border (cards) */
+  --bf-color-border-strong: var(--bf-primitive-color-gray-900); /** Strong/dark border */
+  --bf-color-text-primary: var(--bf-primitive-color-gray-900); /** Primary body text */
+  --bf-color-text-secondary: var(--bf-primitive-color-gray-700); /** Secondary text */
+  --bf-color-text-muted: var(--bf-primitive-color-gray-550); /** Muted / hint text */
+  --bf-color-text-placeholder: var(--bf-primitive-color-gray-600); /** Input placeholder text */
+  --bf-color-text-label: var(--bf-primitive-color-gray-650); /** Form labels and descriptors */
+  --bf-color-text-disabled: var(--bf-primitive-color-gray-500); /** Disabled text */
+  --bf-color-text-on-dark: var(--bf-primitive-color-white); /** Text on dark backgrounds */
+  --bf-color-text-heading: var(--bf-primitive-color-blue-500); /** Heading text color */
+  --bf-color-link-default: var(--bf-primitive-color-blue-400); /** Link color */
+  --bf-color-link-hover: var(--bf-primitive-color-green-600); /** Link hover color */
+  --bf-color-rating-filled: var(--bf-primitive-color-star-gold); /** Filled star rating */
+  --bf-color-rating-empty: var(--bf-primitive-color-star-empty); /** Empty star rating */
+  --bf-typography-heading-font-family: var(--bf-primitive-font-family-heading);
+  --bf-typography-display-font-family: var(--bf-primitive-font-family-display);
+  --bf-typography-body-font-family: var(--bf-primitive-font-family-body);
+  --bf-typography-body-line-height: var(--bf-primitive-font-line-height-snug);
+}

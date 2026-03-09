@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "build": "style-dictionary build -c style-dictionary.config.js",
-    "clean": "rm -rf output/"
+    "clean": "rm -rf output/",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "style-dictionary": "^4.3.0"

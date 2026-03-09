@@ -1,0 +1,44 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ * Legacy compatibility layer for PWA backward compatibility.
+ * Uses RGB triplet format for existing rgb(var(--bf-*)) usage pattern.
+ * Source: @bfg/design-tokens
+ */
+
+:global(:root) {
+    --bf-global-color-white: 255, 255, 255;
+    --bf-global-color-blue: 0, 84, 142;
+    --bf-global-color-blue-dark: 0, 61, 110;
+    --bf-global-color-blue-light: 0, 151, 208;
+    --bf-global-color-blue-gray: 128, 169, 199;
+    --bf-global-color-blue-xlight: 219, 240, 253;
+    --bf-global-color-green-light: 142, 218, 0;
+    --bf-global-color-green-xlight: 231, 247, 210;
+    --bf-global-color-green: 99, 190, 0;
+    --bf-global-color-green-hover: 95, 179, 26;
+    --bf-global-color-green-dark: 0, 99, 0;
+    --bf-global-color-orange: 255, 129, 0;
+    --bf-global-color-orange-light: 255, 196, 5;
+    --bf-global-color-orange-dark: 255, 115, 0;
+    --bf-global-color-grey-light: 250, 250, 250;
+    --bf-global-color-grey: 242, 242, 242;
+    --bf-global-color-grey-dark: 222, 222, 222;
+    --bf-global-color-grey-disabled: 172, 172, 172;
+    --bf-cms-color-box-midnightblue: 5, 24, 38;
+    --bf-cms-color-box-darkolive: 28, 39, 40;
+    --bf-cms-color-text-yellow: 233, 231, 28;
+    --bf-cms-color-text-light-yellow: 237, 219, 143;
+    --bf-cms-color-text-halloween: 248, 190, 83;
+    --bf-button-primary-border: 117, 221, 0;
+    --bf-button-primary-bg: 214, 255, 102;
+    --bf-button-primary-text: 0, 62, 114;
+    --bf-button-primary-hover-bg: 180, 238, 87;
+    --bf-button-secondary-bg: 214, 241, 255;
+    --bf-button-secondary-text: 33, 129, 175;
+    --bf-button-secondary-hover-bg: 172, 221, 243;
+    --bf-button-danger-bg: 255, 96, 96;
+    --bf-button-danger-border: 255, 0, 0;
+    --bf-button-highlight-border: 254, 225, 200;
+    --bf-button-highlight-bg: 255, 119, 0;
+    --bf-button-highlight-hover-bg: 230, 106, 0;
+}
