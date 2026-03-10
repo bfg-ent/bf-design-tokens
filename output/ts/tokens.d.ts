@@ -114,6 +114,8 @@ export const BfPrimitiveColorWhite: string;
 export const BfPrimitiveColorBlack: string;
 /** Extra-light blue (rgb 219, 240, 253) */
 export const BfPrimitiveColorBlue100: string;
+/** Light blue - accent hover on dark (rgb 133, 179, 230) */
+export const BfPrimitiveColorBlue200: string;
 /** Blue gray (rgb 128, 169, 199) */
 export const BfPrimitiveColorBlue300: string;
 /** Light blue / accent (rgb 0, 151, 208) */
@@ -124,8 +126,12 @@ export const BfPrimitiveColorBlue500: string;
 export const BfPrimitiveColorBlue700: string;
 /** Extra-light green (rgb 231, 247, 210) */
 export const BfPrimitiveColorGreen100: string;
+/** Bright green - success on dark (rgb 132, 204, 51) */
+export const BfPrimitiveColorGreen350: string;
 /** Light green (rgb 142, 218, 0) */
 export const BfPrimitiveColorGreen400: string;
+/** Medium green - success hover on dark (rgb 112, 184, 31) */
+export const BfPrimitiveColorGreen450: string;
 /** Primary green (rgb 99, 190, 0) */
 export const BfPrimitiveColorGreen500: string;
 /** Green hover (rgb 95, 179, 26) */
@@ -134,6 +140,10 @@ export const BfPrimitiveColorGreen600: string;
 export const BfPrimitiveColorGreen800: string;
 /** Light orange / gold (rgb 255, 196, 5) */
 export const BfPrimitiveColorOrange300: string;
+/** Amber - warning on dark (rgb 255, 178, 51) */
+export const BfPrimitiveColorOrange400: string;
+/** Dark amber - warning hover on dark (rgb 255, 163, 26) */
+export const BfPrimitiveColorOrange450: string;
 /** Primary orange (rgb 255, 129, 0) */
 export const BfPrimitiveColorOrange500: string;
 /** Dark orange (rgb 255, 115, 0) */
@@ -158,12 +168,32 @@ export const BfPrimitiveColorGray650: string;
 export const BfPrimitiveColorGray700: string;
 /** Near-black (filter borders, etc.) */
 export const BfPrimitiveColorGray900: string;
+/** Lightest slate - primary text on dark (rgb 225, 227, 230) */
+export const BfPrimitiveColorSlate100: string;
+/** Light slate - secondary text on dark (rgb 193, 196, 201) */
+export const BfPrimitiveColorSlate200: string;
+/** Medium slate - tertiary text on dark (rgb 139, 143, 150) */
+export const BfPrimitiveColorSlate300: string;
+/** Medium-dark slate - muted text on dark (rgb 108, 112, 119) */
+export const BfPrimitiveColorSlate400: string;
+/** Dark slate - active/elevated surface (rgb 67, 68, 73) */
+export const BfPrimitiveColorSlate500: string;
+/** Darker slate - borders/hover (rgb 55, 58, 64) */
+export const BfPrimitiveColorSlate600: string;
+/** Deep slate - tertiary surface (rgb 44, 46, 51) */
+export const BfPrimitiveColorSlate700: string;
+/** Deeper slate - secondary surface (rgb 37, 38, 43) */
+export const BfPrimitiveColorSlate800: string;
+/** Deepest slate - primary dark surface (rgb 26, 27, 30) */
+export const BfPrimitiveColorSlate900: string;
 /** Light red border (error) */
 export const BfPrimitiveColorRed300: string;
 /** Error / danger button background */
 export const BfPrimitiveColorRed400: string;
 /** Error text */
 export const BfPrimitiveColorRed500: string;
+/** Dark red - danger border (rgb 185, 28, 28) */
+export const BfPrimitiveColorRed600: string;
 /** Danger button border */
 export const BfPrimitiveColorRed700: string;
 /** Error background */

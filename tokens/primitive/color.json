@@ -18,6 +18,11 @@
           "$type": "color",
           "$description": "Extra-light blue (rgb 219, 240, 253)"
         },
+        "blue-200": {
+          "$value": "#85B3E6",
+          "$type": "color",
+          "$description": "Light blue - accent hover on dark (rgb 133, 179, 230)"
+        },
         "blue-300": {
           "$value": "#80A9C7",
           "$type": "color",
@@ -44,10 +49,20 @@
           "$type": "color",
           "$description": "Extra-light green (rgb 231, 247, 210)"
         },
+        "green-350": {
+          "$value": "#84CC33",
+          "$type": "color",
+          "$description": "Bright green - success on dark (rgb 132, 204, 51)"
+        },
         "green-400": {
           "$value": "#8EDA00",
           "$type": "color",
           "$description": "Light green (rgb 142, 218, 0)"
+        },
+        "green-450": {
+          "$value": "#70B81F",
+          "$type": "color",
+          "$description": "Medium green - success hover on dark (rgb 112, 184, 31)"
         },
         "green-500": {
           "$value": "#63BE00",
@@ -69,6 +84,16 @@
           "$value": "#FFC405",
           "$type": "color",
           "$description": "Light orange / gold (rgb 255, 196, 5)"
+        },
+        "orange-400": {
+          "$value": "#FFB233",
+          "$type": "color",
+          "$description": "Amber - warning on dark (rgb 255, 178, 51)"
+        },
+        "orange-450": {
+          "$value": "#FFA31A",
+          "$type": "color",
+          "$description": "Dark amber - warning hover on dark (rgb 255, 163, 26)"
         },
         "orange-500": {
           "$value": "#FF8100",
@@ -132,6 +157,52 @@
           "$description": "Near-black (filter borders, etc.)"
         },
 
+        "slate-100": {
+          "$value": "#E1E3E6",
+          "$type": "color",
+          "$description": "Lightest slate - primary text on dark (rgb 225, 227, 230)"
+        },
+        "slate-200": {
+          "$value": "#C1C4C9",
+          "$type": "color",
+          "$description": "Light slate - secondary text on dark (rgb 193, 196, 201)"
+        },
+        "slate-300": {
+          "$value": "#8B8F96",
+          "$type": "color",
+          "$description": "Medium slate - tertiary text on dark (rgb 139, 143, 150)"
+        },
+        "slate-400": {
+          "$value": "#6C7077",
+          "$type": "color",
+          "$description": "Medium-dark slate - muted text on dark (rgb 108, 112, 119)"
+        },
+        "slate-500": {
+          "$value": "#434449",
+          "$type": "color",
+          "$description": "Dark slate - active/elevated surface (rgb 67, 68, 73)"
+        },
+        "slate-600": {
+          "$value": "#373A40",
+          "$type": "color",
+          "$description": "Darker slate - borders/hover (rgb 55, 58, 64)"
+        },
+        "slate-700": {
+          "$value": "#2C2E33",
+          "$type": "color",
+          "$description": "Deep slate - tertiary surface (rgb 44, 46, 51)"
+        },
+        "slate-800": {
+          "$value": "#25262B",
+          "$type": "color",
+          "$description": "Deeper slate - secondary surface (rgb 37, 38, 43)"
+        },
+        "slate-900": {
+          "$value": "#1A1B1E",
+          "$type": "color",
+          "$description": "Deepest slate - primary dark surface (rgb 26, 27, 30)"
+        },
+
         "red-300": {
           "$value": "#FFCCCC",
           "$type": "color",
@@ -146,6 +217,11 @@
           "$value": "#CC0000",
           "$type": "color",
           "$description": "Error text"
+        },
+        "red-600": {
+          "$value": "#B91C1C",
+          "$type": "color",
+          "$description": "Dark red - danger border (rgb 185, 28, 28)"
         },
         "red-700": {
           "$value": "#FF0000",
